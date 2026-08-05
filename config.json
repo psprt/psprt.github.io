@@ -14,163 +14,92 @@
       "type": "urltest",
       "tag": "Proxy",
       "outbounds": [
-        "Taiwan 01",
-        "Taiwan 02",
-        "Taiwan 03",
-        "Japan 01",
-        "Japan 02",
-        "Japan 03",
-        "Japan 04",
-        "Korea 01",
-        "Korea 02",
-        "Korea 03",
         "Singapore 01",
         "Singapore 02",
-        "Singapore 03"
+        "Singapore 03",
+        "Singapore 04",
+        "Singapore 05"
       ]
     },
     {
-      "type": "trojan",
-      "tag": "Taiwan 01",
-      "server": "f3a9k5d8.gabuit.com",
-      "server_port": 48606,
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8",
-      "tls": {
-        "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Taiwan 02",
-      "server": "f3a9k5d8.gabuit.com",
-      "server_port": 48607,
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8",
-      "tls": {
-        "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "Taiwan 03",
-      "server": "z3t7x2qp.gabuit.com",
-      "server_port": 48608,
-      "tls": {
-        "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
-      },
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8"
-    },
-    {
-      "type": "trojan",
-      "tag": "Japan 01",
-      "server": "f3a9k5d8.gabuit.com",
-      "server_port": 48609,
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8",
-      "tls": {
-        "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Japan 02",
-      "server": "f3a9k5d8.gabuit.com",
-      "server_port": 48610,
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8",
-      "tls": {
-        "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Japan 03",
-      "server": "f3a9k5d8.gabuit.com",
-      "server_port": 48611,
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8",
-      "tls": {
-        "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "Japan 04",
-      "server": "z3t7x2qp.gabuit.com",
-      "server_port": 48612,
-      "tls": {
-        "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
-      },
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8"
-    },
-    {
-      "type": "anytls",
-      "tag": "Korea 01",
-      "server": "z3t7x2qp.gabuit.com",
-      "server_port": 48613,
-      "tls": {
-        "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
-      },
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8"
-    },
-    {
-      "type": "trojan",
-      "tag": "Korea 02",
-      "server": "f3a9k5d8.gabuit.com",
-      "server_port": 48614,
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8",
-      "tls": {
-        "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Korea 03",
-      "server": "f3a9k5d8.gabuit.com",
-      "server_port": 48615,
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8",
-      "tls": {
-        "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
-      }
-    },
-    {
-      "type": "trojan",
+      "type": "tuic",
       "tag": "Singapore 01",
-      "server": "f3a9k5d8.gabuit.com",
-      "server_port": 48616,
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8",
+      "server": "aws-sg-1.nesnode.com",
+      "server_port": 443,
+      "uuid": "076f3feb-8f3c-4da4-88bc-6045300fcc5f",
+      "password": "4ktTv/w3UlQ4z+3ovxacnQ==",
       "tls": {
         "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
+        "server_name": "aws.amazon.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
-      "type": "trojan",
+      "type": "tuic",
       "tag": "Singapore 02",
-      "server": "f3a9k5d8.gabuit.com",
-      "server_port": 48617,
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8",
+      "server": "aws-sg-2.nesnode.com",
+      "server_port": 443,
+      "uuid": "076f3feb-8f3c-4da4-88bc-6045300fcc5f",
+      "password": "4ktTv/w3UlQ4z+3ovxacnQ==",
       "tls": {
         "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
+        "server_name": "aws.amazon.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
-      "type": "anytls",
+      "type": "tuic",
       "tag": "Singapore 03",
-      "server": "z3t7x2qp.gabuit.com",
-      "server_port": 48618,
+      "server": "aws-sg-3.nesnode.com",
+      "server_port": 443,
+      "uuid": "076f3feb-8f3c-4da4-88bc-6045300fcc5f",
+      "password": "4ktTv/w3UlQ4z+3ovxacnQ==",
       "tls": {
         "enabled": true,
-        "server_name": "a1d8v4.maskmont.com"
-      },
-      "password": "2D374EC4-79AA-4FD0-92B7-756BB03C8AB8"
+        "server_name": "aws.amazon.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "Singapore 04",
+      "server": "aws-sg-6.nesnode.com",
+      "server_port": 443,
+      "uuid": "076f3feb-8f3c-4da4-88bc-6045300fcc5f",
+      "password": "4ktTv/w3UlQ4z+3ovxacnQ==",
+      "tls": {
+        "enabled": true,
+        "server_name": "aws.amazon.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "Singapore 05",
+      "server": "aws-sg-5.nesnode.com",
+      "server_port": 443,
+      "uuid": "076f3feb-8f3c-4da4-88bc-6045300fcc5f",
+      "password": "4ktTv/w3UlQ4z+3ovxacnQ==",
+      "tls": {
+        "enabled": true,
+        "server_name": "aws.amazon.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
     },
     {
       "type": "direct",
