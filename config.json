@@ -32,9 +32,7 @@
         "enabled": true,
         "server_name": "aws.amazon.com",
         "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "alpn": "h3"
       }
     },
     {
@@ -48,9 +46,7 @@
         "enabled": true,
         "server_name": "aws.amazon.com",
         "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "alpn": "h3"
       }
     },
     {
@@ -64,9 +60,7 @@
         "enabled": true,
         "server_name": "aws.amazon.com",
         "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "alpn": "h3"
       }
     },
     {
@@ -80,9 +74,7 @@
         "enabled": true,
         "server_name": "aws.amazon.com",
         "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "alpn": "h3"
       }
     },
     {
@@ -96,9 +88,7 @@
         "enabled": true,
         "server_name": "aws.amazon.com",
         "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "alpn": "h3"
       }
     },
     {
