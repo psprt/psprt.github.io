@@ -26,8 +26,8 @@
       "tag": "Singapore 01",
       "server": "aws-sg-1.nesnode.com",
       "server_port": 443,
-      "uuid": "73f1a8ac-e8f5-4990-ac56-451d545bb6b3",
-      "password": "WHqAhyUZm+olBisBGoZ/CA==",
+      "uuid": "b8b5fd59-f07a-4f6b-a409-620152e85f87",
+      "password": "tIh6Tvnaj35tCbvgMlql3w==",
       "tls": {
         "enabled": true,
         "server_name": "aws.amazon.com",
@@ -40,8 +40,8 @@
       "tag": "Singapore 02",
       "server": "aws-sg-2.nesnode.com",
       "server_port": 443,
-      "uuid": "73f1a8ac-e8f5-4990-ac56-451d545bb6b3",
-      "password": "WHqAhyUZm+olBisBGoZ/CA==",
+      "uuid": "b8b5fd59-f07a-4f6b-a409-620152e85f87",
+      "password": "tIh6Tvnaj35tCbvgMlql3w==",
       "tls": {
         "enabled": true,
         "server_name": "aws.amazon.com",
@@ -54,8 +54,8 @@
       "tag": "Singapore 03",
       "server": "aws-sg-3.nesnode.com",
       "server_port": 443,
-      "uuid": "73f1a8ac-e8f5-4990-ac56-451d545bb6b3",
-      "password": "WHqAhyUZm+olBisBGoZ/CA==",
+      "uuid": "b8b5fd59-f07a-4f6b-a409-620152e85f87",
+      "password": "tIh6Tvnaj35tCbvgMlql3w==",
       "tls": {
         "enabled": true,
         "server_name": "aws.amazon.com",
