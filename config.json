@@ -66,7 +66,7 @@
     {
       "type": "tuic",
       "tag": "Singapore 04",
-      "server": "aws-sg-6.nesnode.com",
+      "server": "aws-sg-5.nesnode.com",
       "server_port": 443,
       "uuid": "73f1a8ac-e8f5-4990-ac56-451d545bb6b3",
       "password": "WHqAhyUZm+olBisBGoZ/CA==",
@@ -80,7 +80,7 @@
     {
       "type": "tuic",
       "tag": "Singapore 05",
-      "server": "aws-sg-5.nesnode.com",
+      "server": "aws-sg-6.nesnode.com",
       "server_port": 443,
       "uuid": "73f1a8ac-e8f5-4990-ac56-451d545bb6b3",
       "password": "WHqAhyUZm+olBisBGoZ/CA==",
