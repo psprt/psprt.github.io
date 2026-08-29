@@ -1,6 +1,6 @@
 {
   "log": {
-    "level": "debug"
+    "level": "warn"
   },
   "inbounds": [
     {
@@ -118,13 +118,13 @@
         "type": "remote",
         "tag": "geosite-cn",
         "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
-        "download_detour": "Proxy"
+        "download_detour": "direct"
       },
       {
         "type": "remote",
         "tag": "geoip-cn",
         "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
-        "download_detour": "Proxy"
+        "download_detour": "direct"
       }
     ]
   }
