@@ -2,12 +2,6 @@
   "log": {
     "level": "debug"
   },
-  "http_clients": [
-    {
-      "tag": "client-direct",
-      "detour": "direct"
-    }
-  ],
   "inbounds": [
     {
       "type": "mixed",
@@ -123,14 +117,14 @@
       {
         "type": "remote",
         "tag": "geosite-cn",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs"
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
+        "download_detour": "Proxy"
       },
       {
         "type": "remote",
         "tag": "geoip-cn",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs"
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+        "download_detour": "Proxy"
       }
-    ],
-    "default_http_client": "client-direct"
+    ]
   }
-}
