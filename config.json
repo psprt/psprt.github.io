@@ -1,0 +1,79 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "http_clients": [
+    {
+      "tag": "Default",
+      "detour": "Proxy"
+    }
+  ],
+  "inbounds": [
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 2080
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "urltest",
+      "tag": "Proxy",
+      "outbounds": [
+        "Malaysia 01",
+        "Malaysia 02"
+      ]
+    },
+    {
+      "type": "tuic",
+      "tag": "Malaysia 01",
+      "server": "aws-my-1.nesnode.com",
+      "server_port": 443,
+      "uuid": "09cea424-81a8-4c8d-999e-07bfcb9953b7b",
+      "password": "Aod45S8g2+jcf1Z1D49bfg==",
+      "tls": {
+        "enabled": true,
+        "server_name": "aws.amazon.com",
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "Malaysia 02",
+      "server": "aws-my-2.nesnode.com",
+      "server_port": 443,
+      "uuid": "09cea424-81a8-4c8d-999e-07bfcb9953b7",
+      "password": "Aod45S8g2+jcf1Z1D49bfg==",
+      "tls": {
+        "enabled": true,
+        "server_name": "aws.amazon.com",
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "Direct"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "domain_suffix": "gokuai.com",
+        "outbound": "Direct"
+      },
+      {
+        "rule_set": "geosite-cn",
+        "outbound": "Direct"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "geosite-cn",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs"
+      }
+    ]
+  }
+}
